@@ -1,5 +1,5 @@
 {
-  "id": "org.gtk.Gtk3theme.Zorin95",
+  "id": "org.gtk.Gtk3theme.Zorin-95",
   "branch": "3.22",
   "runtime": "org.gnome.Sdk",
   "build-extension": true,
@@ -9,12 +9,12 @@
   "separate-locales": false,
   "modules": [
     {
-      "name": "Zorin95",
+      "name": "Zorin-95",
       "buildsystem": "simple",
       "build-commands": [
-        "install -dm755 /usr/share/runtime/share/themes/Zorin95/gtk-3.0",
-        "cp -aL Zorin95/gtk-3.0/* /usr/share/runtime/share/themes/Zorin95/gtk-3.0",
-        "cp -a Zorin95/index.theme /usr/share/runtime/share/themes/Zorin95"
+        "install -dm755 /usr/share/runtime/share/themes/Zorin-95/gtk-3.0",
+        "cp -aL Zorin-95/gtk-3.0/* /usr/share/runtime/share/themes/Zorin-95/gtk-3.0",
+        "cp -a Zorin-95/index.theme /usr/share/runtime/share/themes/Zorin-95"
       ],
       "sources": [
         {
@@ -29,13 +29,13 @@
       "buildsystem": "simple",
       "build-commands": [
         "mkdir -p ${FLATPAK_DEST}/share/appdata",
-        "cp org.gtk.Gtk3theme.Zorin95.appdata.xml ${FLATPAK_DEST}/share/appdata",
-        "appstream-compose --basename=org.gtk.Gtk3theme.Zorin95 --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Zorin95"
+        "cp org.gtk.Gtk3theme.Zorin-95.appdata.xml ${FLATPAK_DEST}/share/appdata",
+        "appstream-compose --basename=org.gtk.Gtk3theme.Zorin-95 --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Zorin-95"
       ],
       "sources": [
         {
           "type": "file",
-          "path": "org.gtk.Gtk3theme.Zorin95.appdata.xml"
+          "path": "org.gtk.Gtk3theme.Zorin-95.appdata.xml"
         }
       ]
 }
