@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="runtime">
-  <id>org.gtk.Gtk3theme.Zorin95</id>
+  <id>org.gtk.Gtk3theme.Zorin-95</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <name>Zorin95</name>
-  <summary>Zorin95</summary>
+  <name>Zorin-95</name>
+  <summary>Zorin-95</summary>
   <description>
     <p>The classic desktop theme for Zorin OS</p>
   </description>
